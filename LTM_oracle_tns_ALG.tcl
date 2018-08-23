@@ -1,4 +1,3 @@
-~~~
 when CLIENT_ACCEPTED {
 	set collected_length 0
 	set virtual_ip [getfield [IP::local_addr] "%" 1]
@@ -35,4 +34,3 @@ when SERVER_DATA {
 		TCP::collect
 	}
 }
-~~~
